@@ -1,5 +1,4 @@
 import './App.css'
-import Forecast from './container/Forecast'
 import Weather from './container/Weather'
 
 function App() {
@@ -7,7 +6,6 @@ function App() {
   return (
     <div className="App">
       <Weather />
-      <Forecast />
     </div>
   )
 }
